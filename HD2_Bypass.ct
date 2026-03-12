@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"HD2 GameGuard Bypass - runs on table load"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries/>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>if syntaxcheck then return end
+
+openProcess("helldivers2.exe")
+
+local asm =[[
+aobscanmodule(bypassP1,$process,48 83 EC 28 8D 81 17 ? ? ? 83) //Unique
+aobscanmodule(bypassP2,$process,E8 ? ? ? ? 3D ? ? ? ? 0F 95 C0 48 83 C4 ? C3 CC CC CC CC CC 48 83) //Unique
+aobscanmodule(bypassP3,$process,E8 ? ? ? ? 3D ? ? ? ? 0F 95 C0 48 83 C4 ? C3 CC CC CC CC CC CC CC 48 89) //Unique
+aobscanmodule(bypassP4,$process,E8 ? ? ? ? 8B D8 3D) //Unique
+aobscanmodule(bypassP5,$process,E8 ? ? ? ? 3D ? ? ? ? 75 ? E8) //Unique
+aobscanmodule(bypassP6,$process,44 89 2D ? ? ? ? E8 ? ? ? ? 3D 55 07 00 00) //Unique
+aobscanmodule(bypassP7,$process,E8 ? ? ? ? 41 0F B6 ? ? ? ? ? 49 8B) //Unique
+aobscanmodule(bypassP8,$process,E8 ? ? ? ? 85 C0 74 ? 48 8D ? ? ? ? ? 48 83 C4 ? C3) //Unique
+registersymbol(bypassP1 bypassP2 bypassP3 bypassP4 bypassP5 bypassP6 bypassP7 bypassP8)
+
+bypassP1:
+  db B8 01 00 00 00 C3 CC CC CC CC
+bypassP2:
+  mov eax,755
+bypassP3:
+  mov eax,755
+bypassP4:
+  mov eax,755
+bypassP5:
+  mov eax,755
+bypassP6+7:
+  mov eax,755
+bypassP7:
+  mov eax,755
+bypassP8:
+  or eax,1
+  nop 2
+]]
+
+if autoAssemble(asm) then
+  sleep(1000)
+  os.execute('taskkill /F /IM "GameMon.des" &amp; taskkill /F /IM "GameMon64.des"')
+  sleep(2000)
+  openProcess("helldivers2.exe")
+
+  autoAssemble([[
+  aobscanmodule(noenginelog,$process,48 89 4C 24 ? 48 89 54 24 ? 4C 89 44 24 ? 4C 89 4C 24 ? 53 56 57 48 83 EC ? 65 48 8B 04 25) //Unique
+  registersymbol(noenginelog)
+  noenginelog:
+  db C3 CC CC CC CC
+  ]])
+
+  beep()
+  showMessage("HD2 Bypass", "done")
+else
+  openProcess("helldivers2.exe")
+  showMessage("HD2 Bypass", "failed - game updated?")
+end
+</LuaScript>
+</CheatTable>
