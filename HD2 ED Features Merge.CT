@@ -12,7 +12,7 @@ if syntaxcheck then return end
 
 [ENABLE]
 synchronize(function()
-  getMainForm().caption = "Merged table by Igromanru"
+  getMainForm().caption = "Merged table by Arknight"
 end)
 
 local AddCompactMenu = decodeFunction("c-oCpK{#D@5dK}:+^qAAco8k6A{T%f)u4Q61R^lo3PP@3Ngj1@vm25P,MXsx6ukBygwT@eVpGr]Qu.$WZ=mlyEp%Ys%zU#mZ^9ci;cc2F#@%:+Z[6W;T:${dM_pFu6[(*:%foU-j/:!;XxwR[tD+M6P:e9(?N=Wb9VBu1#i.!Il07]pjXZE^;9v$j#nv+g@;4IRQ*yMx.ECYh0QDPx(05tUxa22t%{JK!btjnPDgK},^A9*t,gB4.$8*tKBh/Le*p[A)C3aMCH-r5#)Dsq^?l@=*KhEpCF/.plYwgqQ[[S6{di_i2HcdQwpPC-I@]M]INlfcSX1f*d@X,ERHBgF^Kbf:^gmEJo@vFBzM]4/p!8?uR1,j=@XtgnlqQ==*Tj4NlM,I%qWK)oE[ejQtBlPTGF{fYm)Hgt+]}[CwL*K@*R9OE_Xj^bPKk,qu2$Pt{?=2i5.,E%@+4[)#oAKlZ-_-.vtl09;i(Xse*^2G6v56tAb[OO$(Hs:[=#H,ug]G2@pxe#:8}lTeLVf_9o0X.")
@@ -37,7 +37,7 @@ openProcess("helldivers2.exe")
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : helldivers2.exe
   Date   : 2026-01-12
-  Author : Igromanru
+  Author : Arknight
 
   Title Pointer
 }
@@ -126,7 +126,7 @@ game.dll+6D0BB1: EB 22              - jmp game.dll+6D0BD5
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : helldivers2.exe
   Date   : 2026-01-12
-  Author : Igromanru
+  Author : Arknight
 
   Helmet Pointer
 }
@@ -215,7 +215,7 @@ game.dll+6D0868: 4B 8B 14 D3           - mov rdx,[r11+r10*8]
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : helldivers2.exe
   Date   : 2026-01-12
-  Author : Igromanru
+  Author : Arknight
 
   Armor Pointer
 }
@@ -303,7 +303,7 @@ game.dll+6D0A00: 45 8B D8                 - mov r11d,r8d
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : helldivers2.exe
   Date   : 2026-01-12
-  Author : Igromanru
+  Author : Arknight
 
   Cape Pointer
 }
@@ -10480,7 +10480,7 @@ Game: HELLDIVERS 2
 Version: 5.0.0
 Author : HavocBlitz
 
-Fixed by Igromanru for v5.0.0
+Fixed by Arknight for v5.0.0
 */
 
 [ENABLE]
@@ -13358,7 +13358,7 @@ Game: HELLDIVERS 2
 Version: 5.0.0
 Author : Zodiac
 
-Fixed by Igromanru for v5.0.0
+Fixed by Arknight for v5.0.0
 */
 {$lua}
 if syntaxcheck then return end
@@ -78852,7 +78852,7 @@ dealloc(*)
 //Date   : 19/03/25
 //Comment: Script made for Experimental Division.
 /*
-Game v6.0.3: Fixed by Igromanru
+Game v6.0.3: Fixed by Arknight
 */
 
 [ENABLE]
@@ -78947,7 +78947,7 @@ game.dll+787D19: 0F 86 F6 04 00 00              - jbe game.dll+788215
 //Date   : 17/04/25
 //Comment: Script made for Experimental Division.
 /*
-Game v4.1.0: Fixed by Igromanru
+Game v4.1.0: Fixed by Arknight
 */
 
 [ENABLE]
@@ -79062,7 +79062,7 @@ unregistersymbol(EnemyAggro)
 //Date   : 01/08/25
 //Comment: Script made for Experimental Division.
 /*
-Game v4.1.0: Fixed by Igromanru
+Game v4.1.0: Fixed by Arknight
 */
 
 [ENABLE]
@@ -79126,7 +79126,7 @@ unregistersymbol(retardedEnemyBackUp)
 
   Speedhack
 
-  Fixed by Igromanru
+  Fixed by Arknight
 }
 
 [ENABLE]
@@ -79294,7 +79294,7 @@ unregistersymbol(aob_Stragemens)
 Game: HELLDIVERS 2
 Version: 5.0.0
 
-Igromanru's rewrite of Zodiac's Mass Stratagems Drop script
+Arknight's rewrite of Zodiac's Mass Stratagems Drop script
 Added filter to apply to Orbital Barrages only
 */
 
@@ -79531,7 +79531,7 @@ dealloc(*)
 //Inject : game.dll+91B11E
 //Date   : 08/02/2026 18:22 (UTC+3)
 //Comment: This script was created for public use. If you paid for it, you were scammed.
-//Modified by Igromanru to make more update resistent
+//Modified by Arknight to make more update resistent
 
 [ENABLE]
 
@@ -79605,7 +79605,7 @@ dealloc(*)
 //Inject : game.dll+886356
 //Date   : 24/02/2026 12:41 (UTC+3)
 //Comment: This script was created for public use. If you paid for it, you were scammed.
-//Modified by Igromanru
+//Modified by Arknight
 
 [ENABLE]
 aobscanmodule(JammerBypassFind,game.dll,48 8B 04 C1 48 89 44 24 ? F6 40 ? ? 0F 84)
@@ -79827,7 +79827,7 @@ unregistersymbol(aob_CheckMissionBlip)
 //Inject : game.dll+57A80C
 //Date   : 23/03/25
 //Comment: Script made for Experimental Division.
-// Fixed by Igromanru for v6.0.1
+// Fixed by Arknight for v6.0.1
 
 [ENABLE]
 aobscanmodule(missionA,game.dll,45 8B 4A ? 49 8D 8C 24)
@@ -80505,7 +80505,7 @@ unregistersymbol(notraitor)
 //Inject : game.dll+51B59D
 //Date   : 17/05/25
 //Comment: Script made for Experimental Division.
-//Igromanru: Added memory Backup to ensure that the original code is restorted
+//Arknight: Added memory Backup to ensure that the original code is restorted
 
 [ENABLE]
 aobscanmodule(StationaryNoHeat,game.dll,F3 0F 58 44 B7 ? 8B D3)
@@ -80618,7 +80618,7 @@ Game: HELLDIVERS 2
 Version: 5.0.0
 Author : Zodiac
 
-Fixed by Igromanru for v5.0.0
+Fixed by Arknight for v5.0.0
 */
 
 [ENABLE]
@@ -81000,7 +81000,7 @@ unregistersymbol(hoverManual)
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{ Game   : helldivers2.exe
   Date   : 2026-02-17
-  Author : Igromanru
+  Author : Arknight
 
   Infinite Warp Pack
 }
@@ -81815,7 +81815,7 @@ dealloc(*)
               <AssemblerScript Async="1">/*
 Game: HELLDIVERS 2
 Version: 5.0.0
-Author : Igromanru
+Author : Arknight
 
 Infinite Backpack
 */
@@ -81871,7 +81871,7 @@ Game: HELLDIVERS 2
 Version: 5.0.0
 Author : Zodiac
 
-Fixed by Igromanru for v5.0.0
+Fixed by Arknight for v5.0.0
 */
 
 [ENABLE]
@@ -82473,7 +82473,7 @@ Game: HELLDIVERS 2
 Version: 5.0.0
 Author : Zodiac, HavocBlitz, Rei
 
-Fixed by Igromanru for v5.0.0
+Fixed by Arknight for v5.0.0
 */
 [ENABLE]
 
@@ -84781,7 +84781,7 @@ dealloc(*)
 //Inject : game.dll+DAB9E5
 //Date   : 13/08/25
 //Comment: Script made for Experimental Division.
-// Fixed by Igromanru for v6.0.1
+// Fixed by Arknight for v6.0.1
 
 [ENABLE]
 
@@ -85249,7 +85249,7 @@ unregistersymbol(SCtimer)
 Game: HELLDIVERS 2
 Version: 6.0.3
 
-Igromanru's rewrite of Zodiac's Mass SC Packs Drop script
+Arknight's rewrite of Zodiac's Mass SC Packs Drop script
 */
 
 [ENABLE]
@@ -85492,20 +85492,7 @@ end
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <Comments>Table maintainer: Igromanru
-Credits:
-nRei &amp; Zodiac
-Demheadsh0tz
-gir489
-ZoDDeL
-cfemen
-Kanna
-Destinate
-HavocBlitz
-IronS1ghts
-Kael
-Drem Caponera
-Igromanru
+  <Comments>
 </Comments>
   <LuaScript>if syntaxcheck then return end
 
@@ -85565,8 +85552,183 @@ if autoAssemble(bypassASM) then
   ]])
 
   beep()
+  showMessage("Anticheat Bypass", "Bypass applied successfully!")
 else
   openProcess("helldivers2.exe")
+  showMessage("Anticheat Bypass", "Bypass failed - game may have been updated.")
 end
+
+-- ══ HD2 Overlay Pipe Integration (file-based, no FFI) ══
+-- Uses io.open only — works in CE's Lua 5.3 which has no ffi module.
+-- IPC dir: %APPDATA%\hd2_cheat_ed
+
+local ipc_dir = (os.getenv("APPDATA") or "") .. "\\hd2_cheat_ed"
+local CMD_FILE  = ipc_dir .. "\\hd2_cheat_cmd.txt"
+local STATE_FILE = ipc_dir .. "\\hd2_cheat_state.txt"
+
+local function state_send(msg)
+  local ok, err = pcall(function()
+    local f = io.open(STATE_FILE, "a")
+    if f then
+      f:write(msg)
+      f:close()
+    end
+  end)
+  if not ok then
+    -- overlay may not have created dir yet
+  end
+end
+
+function notify(key, enabled)
+  state_send(key .. ":" .. (enabled and "1" or "0") .. "\n")
+end
+
+function notify_status(text)
+  state_send("status:" .. text .. "\n")
+end
+
+local SCRIPT_MAP = {
+  unlock_armor           = "Unlock All Armor in Armory",
+  unlock_equipment       = "Unlock All Equipment in Armory",
+  unlock_stratagems      = "Unlock All Stratagems in Loadout",
+  unlock_v2              = "Unlock All V2",
+  inf_stratagems         = "Inf. Stragagems",
+  mass_stratagems_drop   = "Mass Stratagems Drop",
+  jammer_bypass          = "Jammer Bypass",
+  instant_stratagem      = "Stratagems Call-in Time",
+  inf_health             = "Inf. Health",
+  inf_ammo               = "Inf. Ammo",
+  no_reload              = "No Reload [Numpad 4]",
+  inf_grenades           = "Inf. Grenades",
+  inf_stims              = "Inf. Stims",
+  stamina                = "Inf Stamina (by gir489+cfemen)",
+  laser_overheat         = "No Laser Overheat",
+  turret_duration        = "Inf. Turret | Shield Relay Duration",
+  expire_all_turrets     = "Expire All Turrets",
+  zero_perception        = "Zero Enemy Perception | Disable Turret",
+  reduce_aggro           = "Reduce Aggro | Disable Turret",
+  no_recoil              = "No Recoil",
+  no_sway                = "No Sway",
+  freeze_timer           = "Instant Complete Mission (Main+Side) [Hotkey: i]",
+  freeze_mission_time    = "Freeze Mission Time",
+  extract_time           = "Set Extract Time",
+  map_hack               = "Map Hack",
+  better_weather         = "Better Weather",
+  notification_duration  = "Inf. Notification Duration",
+  no_slow                = "No Slow",
+  no_ragdoll             = "No Ragdoll",
+  no_boundary            = "No Boundary",
+  no_turret_overheat     = "No Stationary Turret Overheat",
+  fast_melee             = "Fast Melee Attacks",
+  fast_landing           = "Fast Landing | Prone",
+  instant_standup        = "Instant Standup From Fall (Beta)",
+  no_jumppack_cd         = "No Jumppack Cooldown",
+  longer_hoverpack       = "Longer Hoverpack Flight",
+  force_hoverpack_land   = "Force Hoverpack To Land",
+  hoverpack_manual       = "Hoverpack Manual Control",
+  inf_warp_pack          = "Infinite Warp Pack",
+  warp_blink_distance    = "Warp Pack Blink Distance",
+  hellbomb_timer         = "Hellbomb Timer",
+  instant_hellbomb       = "Instant Hellbomb Detonation",
+  set_shield_cd          = "Set Shield Cooldown",
+  inf_shield             = "Inf. Shield Energy",
+  inf_backpacks          = "Inf. Backpacks",
+  instant_charge         = "Instant Charge",
+  combination_correct    = "Combination Always Correct",
+  instant_arrows         = "Instant Arrows Minigame",
+  instant_coords         = "Instant Coordinates Minigame",
+  instant_pipes          = "Instant Pipes Minigame",
+  skip_launch_code       = "Skip Entering The Launch Code",
+  freeze_killstreak      = "Freeze Counter &amp; Make It Appear After 1 Kill",
+  killstreak_bonus       = "Killstreak Bonus",
+  evac_mod               = "Evac Mod",
+  evac_high_value        = "Evac High Value Assets Mod",
+  killcount_mod          = "Killcount Mod",
+  eradication_editor     = "Eradication Mission Editor",
+  invasion_mode          = "Invasion Mode",
+  force_difficulty_mult  = "Force Apply Difficulty Multiplier On Reward",
+  replace_pickups        = "Replace Pick Ups",
+  mass_sc_packs          = "Mass SC Packs Drop",
+  samples_on_pickup      = "Set Samples On Pickup",
+  samples_multiplier     = "Samples Multiplier On Pickup",
+  add_samples            = "Add Samples Instantly",
+  samples_over_limit     = "Samples Over Limit Reward",
+  max_reward             = "Max Mission Reward",
+  currency_limit         = "Remove Currency Pickup Limit",
+}
+
+local function apply_toggle(key, enable)
+  local script_name = SCRIPT_MAP[key]
+  if not script_name then
+    print("[pipe] unknown key: " .. key)
+    return
+  end
+
+  local entry = getAddressList().getMemoryRecordByDescription(script_name)
+  if not entry then
+    print("[pipe] CE entry not found: " .. script_name)
+    return
+  end
+
+  entry.Active = enable
+  notify(key, enable)
+  print("[pipe] " .. key .. " -> " .. (enable and "ON" or "OFF"))
+end
+
+local function process_line(line, thread)
+  line = line:match("^%s*(.-)%s*$")
+  if line == "" then return end
+
+  local key, val = line:match("^(.+):([01])$")
+  if key and val then
+    local enable = (val == "1")
+    synchronize(function()
+      apply_toggle(key, enable)
+    end)
+  else
+    print("[pipe] unrecognised command: " .. line)
+  end
+end
+
+local cmd_thread = nil
+
+local function cmd_file_loop(thread)
+  while not thread.Terminated do
+    sleep(200)
+    local f = io.open(CMD_FILE, "r")
+    if f then
+      local content = f:read("*a")
+      f:close()
+      if content and #content &gt; 0 then
+        f = io.open(CMD_FILE, "w")
+        if f then f:close() end
+        for line in content:gmatch("([^\r\n]*)[\r\n]*") do
+          if #line &gt; 0 then
+            process_line(line, thread)
+          end
+        end
+      end
+    end
+  end
+end
+
+cmd_thread = createThread(cmd_file_loop)
+
+function hd2_pipe_ready()
+  notify_status("ED table active")
+  print("[pipe] HD2 overlay integration ready (file-based, no FFI)")
+  print("[pipe]   Cmd:  " .. CMD_FILE)
+  print("[pipe]   State: " .. STATE_FILE)
+end
+
+function hd2_pipe_shutdown()
+  if cmd_thread and not cmd_thread.Terminated then
+    cmd_thread:terminate()
+  end
+  notify_status("ED table inactive")
+  print("[pipe] shutdown complete.")
+end
+
+hd2_pipe_ready()
 </LuaScript>
 </CheatTable>
