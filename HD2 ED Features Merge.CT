@@ -85565,10 +85565,8 @@ if autoAssemble(bypassASM) then
   ]])
 
   beep()
-  showMessage("Anticheat Bypass", "Bypass applied successfully!")
 else
   openProcess("helldivers2.exe")
-  showMessage("Anticheat Bypass", "Bypass failed - game may have been updated.")
 end
 </LuaScript>
 </CheatTable>
